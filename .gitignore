@@ -1,2 +1,4 @@
 data/*
 config/*
+
+*/**/files/data/influxdb/*

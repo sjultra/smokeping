@@ -1,4 +1,4 @@
-# Default values for Speedtest chart.
+# Default values for Smokeping chart.
 # Update these values according to your requirements.
 ingressHost: my.dynamic.ip.or.hostname
 
