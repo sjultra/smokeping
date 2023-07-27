@@ -19,8 +19,3 @@ spec:
       containers:
         - name: smokeping
           image: {{ .Values.smokeping.image }}
-          # env:
-          #   - name: SPEEDTEST_INTERVAL
-          #     value: "{{ .Values.speedtest.interval }}"
-          #   - name: SPEEDTEST_HOST
-          #     value: "{{ .Values.speedtest.host }}"
