@@ -1,6 +1,6 @@
 # Default values for Smokeping chart.
 # Update these values according to your requirements.
-ingressHost: my.dynamic.ip.or.hostname
+ingressHost: 184.174.32.74.sslip.io
 
 influxdb:
   image: influxdb:1.8
@@ -11,7 +11,7 @@ influxdb:
 grafana:
   image: grafana/grafana:6.7.2
   adminPassword: admin
-  ROOTURL: "https://{{ .Values.ingressHost }}/api/v1/namespaces/smokeping/services/http:grafana:80/proxy/?orgId=1"
+  ROOTURL: https://{{ .Values.ingressHost }}/api/v1/namespaces/smokeping/services/http:grafana:80/proxy/?orgId=1
   port: 80
 
 smokeping:
