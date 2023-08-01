@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/smokeping:latest
+FROM madady/smokeping-influx
 
 # env configuration
 ENV PUID=1000
