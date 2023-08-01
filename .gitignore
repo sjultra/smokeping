@@ -1,4 +1,5 @@
 data/*
 config/*
+!config/Targets
 
 */**/files/data/influxdb/*
