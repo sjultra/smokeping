@@ -3,7 +3,7 @@
 ingressHost: 184.174.32.74.sslip.io
 
 influxdb:
-  image: influxdb:1.8
+  image: influxdb:1.7
   adminUser: admin
   adminPassword: password
   db: smokeping
